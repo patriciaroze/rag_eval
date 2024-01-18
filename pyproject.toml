@@ -13,6 +13,8 @@ langchain-openai = "^0.0.2.post1"
 chromadb = "^0.4.22"
 python-dotenv = "^1.0.0"
 pre-commit = "^3.6.0"
+langchain = "^0.1.1"
+langchainhub = "^0.1.14"
 
 
 [build-system]
