@@ -8,7 +8,6 @@ packages = [{include = "rag_eval"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
-giskard = {extras = ["llm"], version = "^2.5.0"}
 langchain-openai = "^0.0.2.post1"
 chromadb = "^0.4.22"
 python-dotenv = "^1.0.0"

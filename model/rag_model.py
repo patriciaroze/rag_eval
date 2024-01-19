@@ -63,7 +63,6 @@ class RagModel:
             chain_type="stuff",
             retriever=retriever,
             return_source_documents=True,
-            # max_tokens=3500,
         )
         self.model = qa_chain
 
