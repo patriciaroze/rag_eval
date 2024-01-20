@@ -8,9 +8,24 @@ Link to the Giskard doc : https://docs.giskard.ai/en/latest/index.html
 All package dependencies are specified in the poetry.lock files. However, if you wish to run the Giskard Hub, you should have Docker installed.
 
 ### Installations
-To install the repository dependencies run
+To install the repository dependencies run :
 ```shell script
 poetry install
+```
+
+### Create a .env file
+
+Add a ```.env``` file and add an Open AI API key (to run the RAG model). 
+You will later on also need to add your Giskard API key to the same file.
+
+```shell script
+touch .env
+nano .env
+```
+Write the following in the nano editor (replacing sk-rh**** with your key) and save your changes.
+
+```
+OPENAI_API_KEY = sk-rh*****************
 ```
 
 ### Generate local report
@@ -48,6 +63,12 @@ You should make sure Docker is running before using the Hub.
 giskard hub start
 ```
 You will be able to open the ```giskard``` hub at ```http://localhost:19000/```
+
+Follow instructions on the Hub and generate an API key, add it to your .env file like so:
+
+```
+GISKARDHUB_API_KEY = gsk-*******************
+```
 
 ### Start the ML worker
 ```
