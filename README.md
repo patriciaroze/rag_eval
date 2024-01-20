@@ -1,4 +1,4 @@
-##Introduction
+## Introduction
 
 This repo is a demo of the ```giskard``` library on a RAG model and a classification model.
 Link to the Giskard doc : https://docs.giskard.ai/en/latest/index.html
